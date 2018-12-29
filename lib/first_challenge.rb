@@ -14,4 +14,5 @@ def first_challenge
   }
 
   contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if("strawberry")
+  puts contacts
 end
